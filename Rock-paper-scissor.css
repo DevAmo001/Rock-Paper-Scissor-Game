@@ -1,0 +1,110 @@
+.main-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.container-3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.container-4 {
+  width: 350px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  background-color:rgb(25, 25, 25);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.move-icon {
+  height: 50px;
+}
+
+.move-button {
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.moves {
+  margin-top: 66px;
+}
+
+.score {
+  margin-top: 60px;
+}
+
+.reset-score-button {
+  background-color: white;
+  font-weight: 700;
+  border: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+  margin-left: 40px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  transition: padding 0.5s;
+}
+
+.reset-score-button:hover {
+  padding: 16px 30px;
+}
+
+.reset-score-button:active {
+  padding: 4px 7.5px;
+}
+
+.auto-play-button {
+  background-color: white;
+  font-weight: 700;
+  border: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+  margin-right: 40px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: padding 0.5s;
+}
+
+.auto-play-button:hover {
+  padding: 16px 30px;
+}
+
+.auto-play-button:active {
+  padding: 4px 7.5px;
+}
