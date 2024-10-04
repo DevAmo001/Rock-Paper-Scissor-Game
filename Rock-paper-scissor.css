@@ -67,27 +67,7 @@ body {
   margin-top: 60px;
 }
 
-.reset-score-button {
-  background-color: white;
-  font-weight: 700;
-  border: none;
-  font-size: 15px;
-  padding: 8px 15px;
-  cursor: pointer;
-  margin-left: 40px;
-  border-bottom-right-radius: 10px;
-  border-top-left-radius: 10px;
-  transition: padding 0.5s;
-}
-
-.reset-score-button:hover {
-  padding: 16px 30px;
-}
-
-.reset-score-button:active {
-  padding: 4px 7.5px;
-}
-
+.reset-score-button,
 .auto-play-button {
   background-color: white;
   font-weight: 700;
@@ -95,16 +75,7 @@ body {
   font-size: 15px;
   padding: 8px 15px;
   cursor: pointer;
-  margin-right: 40px;
-  border-top-left-radius: 10px;
+  margin-left: 7px;
   border-bottom-right-radius: 10px;
-  transition: padding 0.5s;
-}
-
-.auto-play-button:hover {
-  padding: 16px 30px;
-}
-
-.auto-play-button:active {
-  padding: 4px 7.5px;
+  border-top-left-radius: 10px;
 }
