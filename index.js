@@ -63,6 +63,16 @@ function autoPlay() {
   document.querySelector('.js-autoplay-button')
    .addEventListener('click', autoPlay);
 
+   document.body.addEventListener('keydown', (event) => {
+      if (event.key === 'r') {
+        playGame('rock');
+      } else if (event.key === 'p') {
+        playGame('paper');
+      } else if (event.key === 's') {
+        playGame('scissor');
+      }
+   });
+
 // comparing our moves with the computer moves and update the results.
 function playGame(playerMove) {
   const computerMove = pickComputerMove();
