@@ -35,6 +35,33 @@ function autoPlay() {
   }
   
 }
+// instead of onclick, we use .addEventListener();
+  document.querySelector('.js-rock-button')
+  .addEventListener('click', () => {
+    playGame('rock');
+  });
+
+  document.querySelector('.js-paper-button')
+    .addEventListener('click', () => {
+      playGame('paper');
+    });
+
+  document.querySelector('.js-scissor-button')
+   .addEventListener('click', () => {
+    playGame('scissor');
+   });
+
+  document.querySelector('.js-resetscore-button')
+    .addEventListener('click', () => {
+      score.wins = 0;
+      score.losses = 0;
+      score.ties = 0;
+      localStorage.removeItem('score');
+      updateScoreElement();
+    });
+
+  document.querySelector('.js-autoplay-button')
+   .addEventListener('click', autoPlay);
 
 // comparing our moves with the computer moves and update the results.
 function playGame(playerMove) {
